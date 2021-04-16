@@ -2564,7 +2564,7 @@
               </p:NodeReference>
               <Patch Id="FcVARJj7xU1NKZnsNm6cPT">
                 <Canvas Id="OEZtWgeU9plPEupmMpDOrt" CanvasType="Group">
-                  <Node Bounds="152,505,69,19" Id="Jk8374qzvmWLYON2Qcl30P">
+                  <Node Bounds="152,532,69,19" Id="Jk8374qzvmWLYON2Qcl30P">
                     <p:NodeReference LastCategoryFullName="RGBA.ColourLovers.Utils" LastSymbolSource="VL.ColourLovers.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="ProcessAppFlag" Name="ScreenPipet" />
@@ -2632,16 +2632,6 @@
                       </Node>
                     </Patch>
                   </Node>
-                  <Node Bounds="152,573,56,26" Id="SBYuBn3NWCNMy04zb2uwK8">
-                    <p:NodeReference LastCategoryFullName="Reactive.Observable" LastSymbolSource="VL.Reactive.vl">
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <CategoryReference Kind="ImmutableInterfaceType" Name="Observable" />
-                      <Choice Kind="OperationCallFlag" Name="Take" />
-                    </p:NodeReference>
-                    <Pin Id="ElvwUWbz3tqNqtI3qQPFbV" Name="Input" Kind="StateInputPin" />
-                    <Pin Id="COSXOISLaU8MGjsFetie1U" Name="Count" Kind="InputPin" />
-                    <Pin Id="Bxx6ucyGBRzO1IBW83EjdW" Name="Output" Kind="StateOutputPin" />
-                  </Node>
                   <Node Bounds="215,379,119,92" Id="VCpaYYbS8RUNUFjXOjR0bL">
                     <p:NodeReference LastCategoryFullName="RGBA.ColourLovers.Utils" LastSymbolSource="VL.ColourLovers.vl">
                       <Choice Kind="ProcessAppFlag" Name="DataBinding" />
@@ -2665,6 +2655,16 @@
                       </Node>
                     </Patch>
                   </Node>
+                  <Node Bounds="152,482,56,26" Id="I6PKKNil6OlNNshIc1vnZe">
+                    <p:NodeReference LastCategoryFullName="Reactive.Observable" LastSymbolSource="VL.Reactive.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <CategoryReference Kind="ImmutableInterfaceType" Name="Observable" />
+                      <Choice Kind="OperationCallFlag" Name="Take" />
+                    </p:NodeReference>
+                    <Pin Id="IPmGjiDzAhtPSJQeZfpLUk" Name="Input" Kind="StateInputPin" />
+                    <Pin Id="AYPEexmySX9OgVuLM65ZQt" Name="Count" Kind="InputPin" />
+                    <Pin Id="PYX6k5IAOj6PsHvGNvpwG9" Name="Output" Kind="StateOutputPin" />
+                  </Node>
                 </Canvas>
                 <Patch Id="TIbcR46DOiTOARAObR11To" Name="Create" />
                 <Patch Id="RHTRkoF1P9kN5h78o7nee0" Name="Update">
@@ -2678,22 +2678,22 @@
                 <Link Id="BcydL3ukvekO4Z3xfVEQvx" Ids="GS0OQtoJQB2LPGeFESoOdU,R9GOd2KwXusLIlKT3yNPgZ" IsHidden="true" />
                 <Link Id="MonCrTImOedLZvsqrBwECK" Ids="UPcH57rZBpQNxjqB4zD2lP,HPNhwIKJd1iMQkoaX0W6OI" />
                 <Link Id="HdHB2nIe3f6Mzh3TBrJAxk" Ids="KYtGwHIjcutOHCs2dfEqoZ,G8zdYyeCgoPNaR1D0LhwjA" />
-                <Link Id="JXIPjoT0SdmOvHsYDcRpNG" Ids="Jl2r390sGC1NtIpaajZ2aB,AwdxkXscbqvPkOpWFyKmEV" />
                 <Link Id="FqLL2S2IZ1pOYGcyB7gHRx" Ids="H4qN2Y35d6gPyYrCfY5IdQ,G1QhQrdo2b0O7LFjO7Qb2B" />
                 <Link Id="JkXWZQMjW5zQNlA3x7icVl" Ids="KYtGwHIjcutOHCs2dfEqoZ,NMjtUVkXc3YPfympNZNlKl" />
                 <Link Id="MdTQvZaGvWgPMAiT8vlpxC" Ids="DRi4PlyYF8oORkmdG5snHO,MfVy2gqxTJxQRoWDc3EZnI" IsHidden="true" />
                 <Link Id="CgvnVn4aQe5LhxvQGL6RUr" Ids="RlfK41eKyndPOSgYbo5gR3,RSEGHQf76KdOcW97gI70Ev" IsHidden="true" />
                 <Link Id="HoEpPlSbHFGPUOa4XOGJy5" Ids="I7jnTPCSWAEMCgXEdYXUZL,RlfK41eKyndPOSgYbo5gR3" />
                 <Link Id="DV2iOPZItr0OL5WzI2TbHs" Ids="MfVy2gqxTJxQRoWDc3EZnI,FgMgD9v3YOqNcFZVbum9dQ" />
-                <Link Id="NHrWVUsZe6KP7dU9I05FJA" Ids="A05kEuT7ug8QZnQn9avH8J,ElvwUWbz3tqNqtI3qQPFbV" />
-                <Link Id="S10iPiTjFO9LQCs5y1ZrCo" Ids="Bxx6ucyGBRzO1IBW83EjdW,I5SxBeRgeXvMbQSR1wKucM" />
-                <Link Id="HOcugbvot2vM4MJWE1T3KZ" Ids="HL0zISvUyDzM1lpEDLUCE3,COSXOISLaU8MGjsFetie1U" />
                 <Link Id="HF8gyVddQ6yOjFHBM2Vy9U" Ids="I8L04re8cVjPRp988uYTWq,ClAByidJlOHQRCrqTwQEm7" IsHidden="true" />
                 <Link Id="CkT2qRFs6EVOM9KqBoTjOU" Ids="Tzbrnh1HX4rLnRqZGEFymZ,R9CvZZYnLNMMM2JJ2Wr9LO" IsHidden="true" />
                 <Link Id="OLJtOOEc1kcQTRFkQJAdBx" Ids="FsXDqYjxT7KQcFkepL64hS,AxNdzLUPittLyxuREx9t0Q" />
                 <Link Id="Gp8f9x2seyYM4nBL8Ayw3H" Ids="FS6HYDrei5SMYE7S7j1jTd,Tzbrnh1HX4rLnRqZGEFymZ" />
                 <Link Id="RFSsm71H7p4LG5HNcff8Xz" Ids="KYtGwHIjcutOHCs2dfEqoZ,TdJMvBKfx2sPh3tmNvsXkZ" />
                 <Link Id="QbVK02FMe8WLjoFiBLdNao" Ids="H4qN2Y35d6gPyYrCfY5IdQ,GCnWO1qYPaANcy3ZnYeYyv" />
+                <Link Id="Hoinphiv3yOPzmNFHqoCg8" Ids="Jl2r390sGC1NtIpaajZ2aB,IPmGjiDzAhtPSJQeZfpLUk" />
+                <Link Id="BZGiF6SaU4QOPdTjeHJ4G8" Ids="PYX6k5IAOj6PsHvGNvpwG9,AwdxkXscbqvPkOpWFyKmEV" />
+                <Link Id="K9kcgEesujOP01Y8GLUry6" Ids="HL0zISvUyDzM1lpEDLUCE3,AYPEexmySX9OgVuLM65ZQt" />
+                <Link Id="TJj3R0aCBB4MpJILGRUO4b" Ids="A05kEuT7ug8QZnQn9avH8J,I5SxBeRgeXvMbQSR1wKucM" />
               </Patch>
             </Node>
           </Canvas>
