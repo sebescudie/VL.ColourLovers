@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" Id="DUhsqHMczg5OTEXIEwOSic" LanguageVersion="2021.3.2.109" Version="0.128">
+  <NugetDependency Id="VMt5O4uDbAQOCxqESd0xBz" Location="VL.CoreLib" Version="2021.3.2" />
+  <Patch Id="J9qGgP5Wy31N8BMUQMG8eZ">
+    <Canvas Id="NCYyqGN6bVDMJMvUXr6Evx" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="IiNKYsx9WiGNs6tFGOESWm">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <FullNameCategoryReference ID="Primitive" />
+      </p:NodeReference>
+      <Patch Id="QLvsO6ouC5cOvZbrh8Wr1u">
+        <Canvas Id="RueOExywKrvNcXLlCzB2pk" CanvasType="Group">
+          <Node Bounds="437,309,16,19" Id="Bm2kOn74TF2PuQw8vH8MiY">
+            <p:NodeReference>
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="RGBA" />
+              <CategoryReference Kind="Category" Name="ColourLovers" />
+              <Choice Kind="ProcessAppFlag" Name="PaletteBrowser" />
+            </p:NodeReference>
+            <Pin Id="KTk4ip6E9B5PORdwTJN0dz" Name="Update" Kind="ApplyPin" />
+          </Node>
+        </Canvas>
+        <Patch Id="VGroblTiueTLk455re0kzF" Name="Create" />
+        <Patch Id="RqSS2TuxTfENtf8Q4uNe5L" Name="Update" />
+        <!--
+
+    ************************  ************************
+
+-->
+        <ProcessDefinition Id="QB55zOkDxkfLSL9pasmCiu">
+          <Fragment Id="QqweqjeVIX3LOm6OpSQwL3" Patch="VGroblTiueTLk455re0kzF" Enabled="true" />
+          <Fragment Id="SKKwuS9jnDAORxbTpDJShD" Patch="RqSS2TuxTfENtf8Q4uNe5L" Enabled="true" />
+        </ProcessDefinition>
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="INyZyhwzuZ2MqiBqUdfAl8" Location="VL.CoreLib" Version="2021.3.2" />
+  <NugetDependency Id="MOBOtxQxzMBPWGD1g3r6Wv" Location="VL.ColourLovers" Version="0.0.0.0" />
+</Document>
