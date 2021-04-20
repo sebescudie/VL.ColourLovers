@@ -15,7 +15,7 @@
       </p:NodeReference>
       <Patch Id="QLvsO6ouC5cOvZbrh8Wr1u">
         <Canvas Id="RueOExywKrvNcXLlCzB2pk" CanvasType="Group">
-          <Node Bounds="105,230,83,19" Id="Bm2kOn74TF2PuQw8vH8MiY">
+          <Node Bounds="105,240,83,19" Id="Bm2kOn74TF2PuQw8vH8MiY">
             <p:NodeReference>
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="RGBA" />
@@ -23,6 +23,9 @@
               <Choice Kind="ProcessAppFlag" Name="PaletteBrowser" />
             </p:NodeReference>
             <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
+            <Pin Id="KFw8i90f17EMBus5gGrqnX" Name="File Path" Kind="InputPin" />
+            <Pin Id="Spxy2PVgKAsLN2sxXFPFKM" Name="Read" Kind="InputPin" />
+            <Pin Id="Mg6pCh67r1dMcacgoVQ3nx" Name="Write" Kind="InputPin" />
             <Pin Id="KTk4ip6E9B5PORdwTJN0dz" Name="Update" Kind="ApplyPin" />
           </Node>
           <Pad Id="Ewjyprkz0QMOcLOM6CH3rz" Bounds="43,114,517,73" ShowValueBox="true" isIOBox="true" Value="ColourLovers is a website where people can post cool color palettes. They offer a simple API you can use to search for palettes with keywords or even colors. This is what this node allows! Let's see how we can use it.">
@@ -34,7 +37,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="MwCeWMLttuiLmsMrW4uu5F" Bounds="51,233,24,27" ShowValueBox="true" isIOBox="true" Value="1.">
+          <Pad Id="MwCeWMLttuiLmsMrW4uu5F" Bounds="51,240,24,27" ShowValueBox="true" isIOBox="true" Value="1.">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -43,25 +46,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="HrK0bM74uioMKhEP7C2NZG" Bounds="196,234,240,77" ShowValueBox="true" isIOBox="true" Value="Creating this node should spawn the ColourLovers Palette Browser window. You'll use it to look for palettes and retrieve them in your patch.">
-            <p:TypeAnnotation>
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">9</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="CbOEumErjIoOFEtWRvwMOU" Bounds="51,342,24,27" ShowValueBox="true" isIOBox="true" Value="2.">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">13</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="HbncDmWCIPyN5nfXBgoolQ" Bounds="87,348,382,59" ShowValueBox="true" isIOBox="true" Value="The text field on the top allows to search for color palettes by keyword. Type something like &quot;ice&quot;, &quot;sunshine&quot; or &quot;darkness&quot; and press the Return key.">
+          <Pad Id="HrK0bM74uioMKhEP7C2NZG" Bounds="196,240,270,76" ShowValueBox="true" isIOBox="true" Value="Creating this node should spawn the ColourLovers Palette Browser window. You'll use it to look for palettes and use them in your patch.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -70,7 +55,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="DGUuPNrMW75O6gsVOydZD1" Bounds="51,425,24,27" ShowValueBox="true" isIOBox="true" Value="3.">
+          <Pad Id="CbOEumErjIoOFEtWRvwMOU" Bounds="51,343,24,27" ShowValueBox="true" isIOBox="true" Value="2.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -79,7 +64,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="MCGYTA4plLZPActlCOvkIR" Bounds="87,426,382,59" ShowValueBox="true" isIOBox="true" Value="You should now see a list of cool color palettes. Scroll over the to see them all! See one you like? Try double-clicking it. Nothing happens...">
+          <Pad Id="HbncDmWCIPyN5nfXBgoolQ" Bounds="87,343,382,59" ShowValueBox="true" isIOBox="true" Value="The text field on the top allows to search for color palettes by keyword. Type something like &quot;ice&quot;, &quot;sunshine&quot; or &quot;darkness&quot; and press the Return key.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -88,7 +73,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="IoRbLQpa73MP3Ctg3EuCkA" Bounds="51,505,24,27" ShowValueBox="true" isIOBox="true" Value="4.">
+          <Pad Id="DGUuPNrMW75O6gsVOydZD1" Bounds="51,428,24,27" ShowValueBox="true" isIOBox="true" Value="3.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -97,7 +82,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="QK6ZWMc82ETMeSaanKkY2b" Bounds="87,509,381,120" ShowValueBox="true" isIOBox="true" Value="Now focus your vvvv patch and simply make a CTRL+V : you get a spread IOBox that contains your palette!&#xD;&#xA;&#xD;&#xA;This is simply done by putting a string in your clipboard that gamma will understand as a spread of colors... kinda hacky but it works :)">
+          <Pad Id="MCGYTA4plLZPActlCOvkIR" Bounds="87,428,382,59" ShowValueBox="true" isIOBox="true" Value="You should now see a list of cool color palettes. Scroll over the to see them all! See one you like? Try double-clicking it. Nothing happens...">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -106,7 +91,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="G8gTzVSTcfnLSGXMwOPczl" Bounds="48,643,24,27" ShowValueBox="true" isIOBox="true" Value="5.">
+          <Pad Id="IoRbLQpa73MP3Ctg3EuCkA" Bounds="51,510,24,27" ShowValueBox="true" isIOBox="true" Value="4.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -115,7 +100,61 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="GNPpQlm2kRGMpcepPa3ufL" Bounds="87,647,390,267" ShowValueBox="true" isIOBox="true" Value="As we mentioned, ColourLovers allows to seach palettes by color. If tweak the color widget under the text field and enable the small checkbox next to it, the color you specified will be taken into account in the search. Note than soon as there's something in the text field, search query will include your string AND your color. To only search by color, simply clear the text field.&#xD;&#xA;&#xD;&#xA;Ok this is cool but try pressing CTRL+T with the Palette Browser focused. Move your mouse around : the color widget takes the color of the pixel that is under your mouse pointer! Simply double-click to validate the color, and then perform the search with the Return key. Don't forget to enable the check-box next to the color widget to take the color into account in the search.">
+          <Pad Id="QK6ZWMc82ETMeSaanKkY2b" Bounds="87,510,381,120" ShowValueBox="true" isIOBox="true" Value="Now focus your vvvv patch and simply make a CTRL+V : you get a spread IOBox that contains your palette!&#xD;&#xA;&#xD;&#xA;This is simply done by putting a string in your clipboard that gamma will understand as a spread of colors... kinda hacky but it works :)">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="G8gTzVSTcfnLSGXMwOPczl" Bounds="48,658,24,27" ShowValueBox="true" isIOBox="true" Value="5.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">13</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="GNPpQlm2kRGMpcepPa3ufL" Bounds="87,658,390,267" ShowValueBox="true" isIOBox="true" Value="As we mentioned, ColourLovers allows to seach palettes by color. If tweak the color widget under the text field and enable the small checkbox next to it, the color you specified will be taken into account in the search. Note than soon as there's something in the text field, search query will include your string AND your color. To only search by color, simply clear the text field.&#xD;&#xA;&#xD;&#xA;Ok this is cool but try pressing CTRL+T with the Palette Browser focused. Move your mouse around : the color widget takes the color of the pixel that is under your mouse pointer! Simply double-click to validate the color, and then perform the search with the Return key. Don't forget to enable the check-box next to the color widget to take the color into account in the search.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="NdgtguvvrehOSYWJ52AeCP" Bounds="503,239,24,27" ShowValueBox="true" isIOBox="true" Value="6.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">13</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="JEEa2mpd0poP7X3K6nUInj" Bounds="539,239,377,103" ShowValueBox="true" isIOBox="true" Value="Saw a palette you'd like to use later? Right click it in the search results and click &quot;Add To Favorites&quot;. Now head over to the Favorites tab and find all the palettes you've marked. Using the PaletteBrowser's input pins, you can even save your favorites to disk to re-use in another project.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="TG5DizNNaw0QZ7pm8XEzWy" Bounds="503,358,24,27" ShowValueBox="true" isIOBox="true" Value="7.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">13</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="PUB5Nvm7PjlPocpPL6l23n" Bounds="539,361,371,33" ShowValueBox="true" isIOBox="true" Value="Done working with the palette browser? Just delete the node!">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
