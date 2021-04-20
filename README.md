@@ -1,8 +1,26 @@
 # VL.ColourLovers
 
-## Was ist das
+_A small utility node that allows to search for color palettes on ColourLovers by keyword or by color and easily use them in your patch._
 
-A small utility node that allows to search for color palettes from ColourLovers (either by keyword or by color) and retrieve them easily in your patch. More documentation will follow when the project is in a more stable state.
+## Installation
+
+Go to gamma's command line and type
+
+```
+nuget install VL.ColourLovers -pre
+```
+
+For more information on how to install nugets, visit the [Gray Book](https://thegraybook.vvvv.org/reference/libraries/referencing.html).
+
+## Usage
+
+Press <kbd>F1</kbd> to open the help browser and look for `ColourLovers`. There's a help patch that shows how to use the node.
+
+## Features
+
+- Search for palettes by keyword or by color
+- Either specify the color yourself, or use the built-in color picker that lets you pick any color from your screen with a simple double-click
+- Mark palettes as favorites and save them to disk for later use
 
 ## Credits
 
