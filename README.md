@@ -1,5 +1,7 @@
 # VL.ColourLovers
 
+[![Nuget](https://img.shields.io/nuget/vpre/VL.ColourLovers?style=flat-square)](https://www.nuget.org/packages/VL.ColourLovers)
+
 _A small utility node that allows to search for color palettes on ColourLovers by keyword or by color and easily use them in your patch._
 
 ## Installation
