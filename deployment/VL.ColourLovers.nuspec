@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>VL.ColourLovers</id>
+    <version>1.0.0-pre</version>
+    <authors>sebescudie</authors>
+    <owners>sebescudie</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://www.gnu.org/licenses/</licenseUrl>
+    <projectUrl>https://github.com/sebescudie/VL.ColourLovers</projectUrl>
+    <description>A GUI utility to search and use color palette from ColourLovers</description>
+    <summary>A GUI utility to search and use color palette from ColourLovers</summary>
+    <releaseNotes>Initial</releaseNotes>
+    <language>en-US</language>
+    <icon>icon.png</icon>
+    <tags>vl colour palette colourlevers</tags>
+    <dependencies>
+      <dependency id="ColourLovers" version="1.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\*.vl"/>
+    <file src="..\**\*.vl"/>
+    <file src="icon.png"/>
+  </files>
+</package>
