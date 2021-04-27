@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>VL.ColourLovers</id>
-    <version>1.0.0-pre</version>
+    <version>1.0.0-preview01</version>
     <authors>sebescudie</authors>
     <owners>sebescudie</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -16,6 +16,7 @@
     <tags>vl colour palette colourlevers</tags>
     <dependencies>
       <dependency id="ColourLovers" version="1.0.0" />
+      <dependency id="VL.Elementa" version="5.0.6" />
     </dependencies>
   </metadata>
   <files>
