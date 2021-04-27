@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>VL.ColourLovers</id>
-    <version>1.0.0-preview01</version>
+    <version>1.0.0-preview02</version>
     <authors>sebescudie</authors>
     <owners>sebescudie</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -17,6 +17,7 @@
     <dependencies>
       <dependency id="ColourLovers" version="1.0.0" />
       <dependency id="VL.Elementa" version="5.0.6" />
+      <dependency id="MouseKeyHook" version="5.6.0" />
     </dependencies>
   </metadata>
   <files>
