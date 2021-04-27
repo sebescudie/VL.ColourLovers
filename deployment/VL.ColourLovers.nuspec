@@ -8,12 +8,12 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>http://www.gnu.org/licenses/</licenseUrl>
     <projectUrl>https://github.com/sebescudie/VL.ColourLovers</projectUrl>
-    <description>A GUI utility to search and use color palette from ColourLovers</description>
-    <summary>A GUI utility to search and use color palette from ColourLovers</summary>
-    <releaseNotes>Initial</releaseNotes>
+    <description>A GUI utility to search and use color palettes from ColourLovers.com</description>
+    <summary>A GUI utility to search and use color palette from ColourLovers.com</summary>
+    <releaseNotes>Fixes dependencies and typos</releaseNotes>
     <language>en-US</language>
     <icon>icon.png</icon>
-    <tags>vl colour palette colourlevers</tags>
+    <tags>vl colour palette colourlovers</tags>
     <dependencies>
       <dependency id="ColourLovers" version="1.0.0" />
       <dependency id="VL.Elementa" version="5.0.6" />
