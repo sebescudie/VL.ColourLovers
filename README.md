@@ -4,6 +4,9 @@
 
 _A small utility node that allows to search for color palettes on ColourLovers by keyword or by color and easily use them in your patch._
 
+## Known issue
+As of today (5/12/21), it seems the plugin has troubles communicating with the ColourLovers API (see [this post](https://discourse.vvvv.org/t/vl-colourlovers/19483/3) on the vvvv forum). I'm waiting for feedback from ColourLovers and will update this README when it's fixed.
+
 ## Installation
 
 Go to gamma's command line and type
